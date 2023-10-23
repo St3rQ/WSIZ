@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bank Simulator</title>
+</head>
+<script src="3.js"></script>
+<body>
+  <div id="loginForm">
+    <h2>Logowanie</h2>
+    <label for="accountNumber">Numer konta:</label>
+    <input type="text" id="accountNumber" />
+    <br />
+    <label for="pin">PIN:</label>
+    <input type="password" id="pin" />
+    <br />
+    <button onclick="login()">Zaloguj</button>
+  </div>
+
+  <div id="userPanel" style="display: none;">
+    <h2>Panel użytkownika</h2>
+    <p>Witaj, <span id="userName"></span>!</p>
+    <p>Ilość pieniędzy na koncie: <span id="userMoney"></span> zł</p>
+
+    <h3>Wypłata gotówki</h3>
+    <label for="withdrawAmount">Kwota do wypłacenia:</label>
+    <input type="number" id="withdrawAmount" />
+    <br />
+    <button onclick="withdraw()">Wypłać</button>
+
+    <h3>Wpłata gotówki</h3>
+    <label for="depositAmount">Kwota do wpłacenia:</label>
+    <input type="number" id="depositAmount" />
+    <br />
+    <button onclick="deposit()">Wpłać</

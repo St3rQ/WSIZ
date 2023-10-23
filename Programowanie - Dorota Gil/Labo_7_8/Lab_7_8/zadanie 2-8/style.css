@@ -1,0 +1,17 @@
+.form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 200px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
