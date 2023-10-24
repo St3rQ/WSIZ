@@ -1,6 +1,6 @@
 ﻿//Main
 
-TworzenieTablicy();
+BubbleSort();
 
 //Koniec Main
 
@@ -20,7 +20,7 @@ int InputInt()
     return value;
 }
 
-void TworzenieTablicy()
+void BubbleSort()
 {
     Console.WriteLine("Podaj ilosc liczb:");
     int n = InputInt();
